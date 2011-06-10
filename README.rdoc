@@ -1,0 +1,1 @@
+= rails_history: keep the modification history for rails applications
