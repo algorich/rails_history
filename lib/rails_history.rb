@@ -1,0 +1,3 @@
+module RailsHistory
+  # Your code goes here...
+end
