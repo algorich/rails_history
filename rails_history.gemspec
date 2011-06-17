@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
                    'Hugo Maia Vieira', 'Rafael Carvalho',
                    'Rodrigo Manhães']
   s.email       = ['eduardo@algorich.com.br', 'hr.salles@algorich.com.br',
-                   'hugo@algorich.com.br', 'rafael@algorich.com.br'
+                   'hugo@algorich.com.br', 'rafael@algorich.com.br',
                    'rmanhaes@gmail.com']
   s.homepage    = ''
   s.summary     = %q{Keep the modification history for rails applications}
@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split('\n').map{ |f| File.basename(f) }
   s.require_paths = ['lib']
 
+  s.add_dependency('rails','3.0.9')
   s.add_development_dependency('rspec-rails','2.6.1')
 
 end
