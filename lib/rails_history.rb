@@ -1,3 +1,6 @@
+
 module RailsHistory
-  # Your code goes here...
+  require 'rails_history/engine' if defined?(Rails) && Rails::VERSION::MAJOR == 3
+
 end
+

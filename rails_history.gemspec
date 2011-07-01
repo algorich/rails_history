@@ -25,7 +25,6 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
 
   s.add_dependency('rails','3.0.9')
-  s.add_development_dependency('rspec-rails','2.6.1')
-
+  s.add_development_dependency("rspec-rails", '~> 2.5')
 end
 
