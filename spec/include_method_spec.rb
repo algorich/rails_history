@@ -9,6 +9,5 @@ describe ActionController::Base, :type => :controller do
     ActionController::Base.before_filter :some_other_method
     ActionController::Base._process_action_callbacks.map(&:filter).should == [:some_other_method, :_get_current_user]
   end
-
 end
 
